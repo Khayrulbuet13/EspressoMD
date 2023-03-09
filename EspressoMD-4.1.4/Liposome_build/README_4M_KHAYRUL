@@ -1,0 +1,21 @@
+we copied myconfig.hpp and kept in Liposome_build
+cp ../myconfig.hpp .
+
+
+# Here is the exact commands need to be run for installing EspressoMD-4.1.4 for liposome simulation
+
+cmake ..
+rm myconfig-sample.hpp
+cmake ..
+make -j 48
+
+# installing MDAnalysis 1. Latest version doesn't work on python 3.6
+pip3 install MDAnalysis==1
+pip3 install MDAnalysisTests==1
+
+# updating numpy has a compatibility issue with MDAnalysis
+pip3 update numpy
+
+# installing pandasda
+pip3 install pandas
+
