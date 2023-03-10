@@ -96,9 +96,6 @@ To install espessomd with docker simply use the build command
    Start interactive mode my_espresso bash
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -107,19 +104,11 @@ This repo is for easy installation of EspressoMD Molecular dynamics package,
 
 _For more examples, please refer to the [Documentation](https://espressomd.github.io/doc/index.html)_
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
