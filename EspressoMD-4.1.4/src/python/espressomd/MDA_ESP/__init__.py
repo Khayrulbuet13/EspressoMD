@@ -174,8 +174,8 @@ class ESPParser(TopologyReaderBase):
 
 class Timestep(base.Timestep):
     _ts_order_x = [0, 3, 4]
-    _ts_order_y = [5, 1, 6]
-    _ts_order_z = [7, 8, 2]
+    _ts_order_y = [5, 1, 5]
+    _ts_order_z = [5, 5, 2]
 
     def _init_unitcell(self):
         return np.zeros(9, dtype=np.float32)
