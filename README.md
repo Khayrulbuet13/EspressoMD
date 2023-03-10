@@ -56,14 +56,6 @@ The machine need to have docker installed. To install docker follow the instruct
 
 The machine need to have docker installed. To install docker follow the instruction on [Docker Page](https://docs.docker.com/desktop/install/linux-install/)
 
-Create a folder and have the docker file available
-* npm
-  ```sh
-  mkdir test_espresso
-  git clone https://github.com/Khayrulbuet13/EspressoMD.git
-  cp EspressoMD/Dockerfile
-  rm -r EspressoMD
-  ```
 
 ### Installation
 
@@ -85,11 +77,11 @@ To install espessomd with docker simply use the build command
    ```
 4. build the container using build command
    ```sh
-   docker build -t EspressoMD .
+   docker build -t espresso .
    ```
 5. run the container in background
    ```sh
-   docker run --gpus all -t -d --name my_espresso EspressoMD
+   docker run --gpus all -t -d --name my_espresso espresso
    ```
 6. To start interactive mode
    ```sh
