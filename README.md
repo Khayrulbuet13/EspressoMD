@@ -85,7 +85,7 @@ To install espessomd with docker simply use the build command
    ```
 6. To start interactive mode
    ```sh
-   Start interactive mode my_espresso bash
+   docker exec -it --user root my_espresso bash
    ```
 
 
