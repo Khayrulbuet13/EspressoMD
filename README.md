@@ -106,7 +106,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Khayrul Islam - [@LinedIN](https://www.linkedin.com/in/khayrulbuet13/) - khayrulbuet13@gmail.com
+Khayrul Islam - [@LinkedIN](https://www.linkedin.com/in/khayrulbuet13/) - khayrulbuet13@gmail.com
 
 Project Link: [EspressoMD](https://github.com/Khayrulbuet13/EspressoMD.git)
 
