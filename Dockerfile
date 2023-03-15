@@ -11,7 +11,7 @@ RUN apt-get install -y build-essential cmake cython3 \
     && pip install --user numpy==1.19 \
     && apt-get install -y libboost-all-dev openmpi-common fftw3-dev libhdf5-dev libhdf5-openmpi-dev \
     python3-scipy python3-opengl libgsl-dev \
-    && pip install --user MDAnalysis==2.2 MDAnalysisTests==2.2 pandas==1.5 \
+    && pip install --user MDAnalysis==2.2 MDAnalysisTests==2.2 pandas==1.4 \
     && apt-get -y install nvidia-cuda-toolkit
 
 RUN useradd -rm -d /home/espresso -s /bin/bash -g root -G sudo -u 1001 espresso
