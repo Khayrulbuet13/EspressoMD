@@ -77,7 +77,7 @@ To install espessomd with docker simply use the build command
    ```
 4. build the container using build command
    ```sh
-   docker build -t espresso .
+   docker build --no-cache -t espresso .
    ```
 5. run the container in background
    ```sh

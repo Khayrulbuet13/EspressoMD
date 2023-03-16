@@ -23,10 +23,10 @@ RUN cd EspressoMD/EspressoMD-4.1.4/Liposome_build && \
     cmake .. -DCMAKE_C_COMPILER=$(which gcc-8) -DMAKE_C_COMPILER=$(which gcc-8) -DCMAKE_CXX_COMPILER=$(which g++-8) -DGMX_GPU=CUDA -DGMX_MPI=ON -D WITH_HDF5=ON && \
     rm myconfig-sample.hpp && \
     cmake .. -DCMAKE_C_COMPILER=$(which gcc-8) -DMAKE_C_COMPILER=$(which gcc-8) -DCMAKE_CXX_COMPILER=$(which g++-8) -DGMX_GPU=CUDA -DGMX_MPI=ON -D WITH_HDF5=ON && \
-    make -j $(noroc)
+    make -j $(nproc)
     
 RUN cd EspressoMD/EspressoMD-4.1.2/RBC_build && \
     cmake .. -DCMAKE_C_COMPILER=$(which gcc-8) -DMAKE_C_COMPILER=$(which gcc-8) -DCMAKE_CXX_COMPILER=$(which g++-8) -DGMX_GPU=CUDA -DGMX_MPI=ON -D WITH_HDF5=OFF && \
     rm myconfig-sample.hpp && \
     cmake .. -DCMAKE_C_COMPILER=$(which gcc-8) -DMAKE_C_COMPILER=$(which gcc-8) -DCMAKE_CXX_COMPILER=$(which g++-8) -DGMX_GPU=CUDA -DGMX_MPI=ON -D WITH_HDF5=OFF && \
-    make -j $(noroc)
+    make -j $(nproc)
